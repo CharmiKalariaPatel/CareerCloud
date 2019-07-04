@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CareerCloud.BusinessLogicLayer
 {
-    internal class ValidationException : Exception
+    public class ValidationException : Exception
     {
         public ValidationException(int code,string message):base(message)
         {
