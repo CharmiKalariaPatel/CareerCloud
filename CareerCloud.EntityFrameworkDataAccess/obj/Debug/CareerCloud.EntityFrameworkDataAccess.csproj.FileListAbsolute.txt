@@ -1,0 +1,16 @@
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\CareerCloud.EntityFrameworkDataAccess.dll.config
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\CareerCloud.EntityFrameworkDataAccess.dll
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\CareerCloud.EntityFrameworkDataAccess.pdb
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\CareerCloud.DataAccessLayer.dll
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\CareerCloud.Pocos.dll
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\CareerCloud.DataAccessLayer.pdb
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\CareerCloud.Pocos.pdb
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\CareerCloud.EntityFrameworkDataAccess.csprojAssemblyReference.cache
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\CareerCloud.EntityFrameworkDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\CareerCloud.EntityFrameworkDataAccess.csproj.CopyComplete
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\CareerCloud.EntityFrameworkDataAccess.dll
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\CareerCloud.EntityFrameworkDataAccess.pdb
