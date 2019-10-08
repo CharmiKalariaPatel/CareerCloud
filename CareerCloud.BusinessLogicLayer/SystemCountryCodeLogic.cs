@@ -23,10 +23,10 @@ namespace CareerCloud.BusinessLogicLayer
             List<ValidationException> exceptions = new List<ValidationException>();
             foreach (var poco in pocos)
             {
-                if (string.IsNullOrEmpty(poco.Code))
-                {
-                    exceptions.Add(new ValidationException(900, $"Major for ApplicantEducation   is required."));
-                }
+               if (string.IsNullOrEmpty(poco.Code))
+               {
+                 exceptions.Add(new ValidationException(900, $"Major for ApplicantEducation   is required."));
+               }
                 if (string.IsNullOrEmpty(poco.Name))
                 {
                     exceptions.Add(new ValidationException(901, $"Major for ApplicantEducation  is required."));
@@ -39,9 +39,9 @@ namespace CareerCloud.BusinessLogicLayer
                 throw new AggregateException(exceptions);
             }
         }
-        public SystemCountryCodePoco Get(String _Name)
+        public SystemCountryCodePoco Get(String code)
         {
-            return _repository.GetSingle(c => c.Name == _Name);
+            return _repository.GetSingle(c => c.Code == code);
         }
         public List<SystemCountryCodePoco> GetAll()
         {

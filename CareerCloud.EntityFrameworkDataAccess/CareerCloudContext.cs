@@ -9,14 +9,12 @@ using CareerCloud.Pocos;
 
 namespace CareerCloud.EntityFrameworkDataAccess
 {
-    class CareerCloudContext:DbContext
+   public class CareerCloudContext:DbContext
     {
-        public CareerCloudContext() : 
+        public CareerCloudContext(bool createProxy=false ) : 
             base(ConfigurationManager.ConnectionStrings["dbconnection"].ConnectionString)
         {
-
-
-
+            Configuration.ProxyCreationEnabled = createProxy;
         }
 
 
@@ -156,31 +154,29 @@ namespace CareerCloud.EntityFrameworkDataAccess
 
             base.OnModelCreating(modelBuilder);
         }
-        DbSet<CompanyDescriptionPoco> CompanyDescriptions { get; set; }
-        DbSet<ApplicantEducationPoco> applicantEducations { get; set; }
-        DbSet<ApplicantProfilePoco> applicantProfiles { get; set; }
-        DbSet<ApplicantResumePoco> applicantResumes { get; set; }
-        DbSet<ApplicantSkillPoco> applicantSkills { get; set; }
-        DbSet<ApplicantWorkHistoryPoco> applicantWorkHistories{ get; set; }
-        DbSet<ApplicantJobApplicationPoco> applicantJobApplications { get; set; }
-        DbSet<CompanyJobDescriptionPoco> companyJobDescriptions { get; set; }
-        DbSet<CompanyJobPoco> companyJobs { get; set; }
-        DbSet<CompanyJobSkillPoco> companyJobSkills { get; set; }
-        DbSet<CompanyLocationPoco> companyLocations { get; set; }
-        DbSet<CompanyJobEducationPoco> companyJobEducations { get; set; }
+       public DbSet<CompanyDescriptionPoco> CompanyDescriptions { get; set; }
+       public DbSet<ApplicantEducationPoco> applicantEducations { get; set; }
+       public DbSet<ApplicantProfilePoco> applicantProfiles { get; set; }
+      public  DbSet<ApplicantResumePoco> applicantResumes { get; set; }
+       public DbSet<ApplicantSkillPoco> applicantSkills { get; set; }
+       public DbSet<ApplicantWorkHistoryPoco> applicantWorkHistories{ get; set; }
+       public DbSet<ApplicantJobApplicationPoco> applicantJobApplications { get; set; }
+       public DbSet<CompanyJobDescriptionPoco> companyJobDescriptions { get; set; }
+      public  DbSet<CompanyJobPoco> companyJobs { get; set; }
+       public DbSet<CompanyJobSkillPoco> companyJobSkills { get; set; }
+       public DbSet<CompanyLocationPoco> companyLocations { get; set; }
+       public DbSet<CompanyJobEducationPoco> companyJobEducations { get; set; }
 
-        DbSet<SecurityLoginPoco> securityLogins { get; set; }
-        DbSet<SecurityLoginsLogPoco> securityLoginsLogs { get; set; }
-        DbSet<SecurityLoginsRolePoco> securityLoginsRoles { get; set; }
-        DbSet<SecurityRolePoco> securityRoles { get; set; }
-        DbSet<SystemCountryCodePoco> systemCountryCodes { get; set; }
-        DbSet<SystemLanguageCodePoco> systemLanguageCodes { get; set; }
-        DbSet<CompanyProfilePoco> companyProfiles { get; set; }
-
-
+       public DbSet<SecurityLoginPoco> securityLogins { get; set; }
+       public DbSet<SecurityLoginsLogPoco> securityLoginsLogs { get; set; }
+      public  DbSet<SecurityLoginsRolePoco> securityLoginsRoles { get; set; }
+       public DbSet<SecurityRolePoco> securityRoles { get; set; }
+       public DbSet<SystemCountryCodePoco> systemCountryCodes { get; set; }
+       public DbSet<SystemLanguageCodePoco> systemLanguageCodes { get; set; }
+       public DbSet<CompanyProfilePoco> companyProfiles { get; set; }
 
         
 
-
+ 
     }
 }

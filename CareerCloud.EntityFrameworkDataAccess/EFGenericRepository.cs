@@ -12,9 +12,9 @@ namespace CareerCloud.EntityFrameworkDataAccess
    public class EFGenericRepository<T> : IDataRepository<T> where T:class
     {
         private CareerCloudContext _contex;
-        public EFGenericRepository()
+        public EFGenericRepository(bool createProxy=false)
         {
-            _contex = new CareerCloudContext();
+            _contex = new CareerCloudContext(createProxy);
         }
         public void Add(params T[] items)
         {

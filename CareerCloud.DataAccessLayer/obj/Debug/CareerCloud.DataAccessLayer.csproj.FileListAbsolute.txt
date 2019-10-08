@@ -1,6 +1,6 @@
 C:\Users\H&C\source\repos\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\CareerCloud.DataAccessLayer.dll
 C:\Users\H&C\source\repos\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\CareerCloud.DataAccessLayer.pdb
-C:\Users\H&C\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.csprojAssemblyReference.cache
 C:\Users\H&C\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\H&C\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.dll
 C:\Users\H&C\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.pdb
+C:\Users\H&C\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.csprojAssemblyReference.cache
